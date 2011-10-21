@@ -12,6 +12,3 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc8'
 end
-
-gem 'pg' # Heroku's DB runs on postgresql
-gem 'heroku'
