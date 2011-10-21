@@ -1,8 +1,5 @@
 source 'http://rubygems.org'
 
-gem 'pg' # Heroku's DB runs on postgresql
-gem 'heroku'
-
 gem 'rails', '3.1.0'
 gem 'sqlite3', '1.3.4'
 gem 'jquery-rails', '1.0.16'
@@ -15,3 +12,6 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc8'
 end
+
+gem 'pg' # Heroku's DB runs on postgresql
+gem 'heroku'
